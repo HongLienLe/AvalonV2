@@ -32,6 +32,15 @@ class ViewController: UIViewController {
         
     }
     @IBAction func generatorButtonPressed(_ sender: Any) {
+        // randomly generate a name from the array and pop up on the named generated.
+        // if the user press this button without adding, app will not generate anything because the array is empty
+        let randomName = listOfNames.randomElement()
+        if listOfNames.isEmpty{
+            nameGenerated.text = "No Players names have been entered"
+        } else {
+            nameGenerated.text = randomName
+        }
+        
     }
     
 
