@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		492C5E6721958B7C0002ECE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C5E6621958B7C0002ECE0 /* AppDelegate.swift */; };
+		492C5E6921958B7C0002ECE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C5E6821958B7C0002ECE0 /* ViewController.swift */; };
+		492C5E6C21958B7C0002ECE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492C5E6A21958B7C0002ECE0 /* Main.storyboard */; };
+		492C5E6E21958B7D0002ECE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492C5E6D21958B7D0002ECE0 /* Assets.xcassets */; };
+		492C5E7121958B7D0002ECE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492C5E6F21958B7D0002ECE0 /* LaunchScreen.storyboard */; };
+		492C5E7C21958B7D0002ECE0 /* AvalonV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C5E7B21958B7D0002ECE0 /* AvalonV2Tests.swift */; };
+		492C5E8721958B7D0002ECE0 /* AvalonV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C5E8621958B7D0002ECE0 /* AvalonV2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		492C5E7821958B7D0002ECE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492C5E5B21958B7C0002ECE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 492C5E6221958B7C0002ECE0;
+			remoteInfo = AvalonV2;
+		};
+		492C5E8321958B7D0002ECE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492C5E5B21958B7C0002ECE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 492C5E6221958B7C0002ECE0;
+			remoteInfo = AvalonV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		492C5E6321958B7C0002ECE0 /* AvalonV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvalonV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		492C5E6621958B7C0002ECE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		492C5E6821958B7C0002ECE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		492C5E6B21958B7C0002ECE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		492C5E6D21958B7D0002ECE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		492C5E7021958B7D0002ECE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		492C5E7221958B7D0002ECE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492C5E7721958B7D0002ECE0 /* AvalonV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvalonV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		492C5E7B21958B7D0002ECE0 /* AvalonV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvalonV2Tests.swift; sourceTree = "<group>"; };
+		492C5E7D21958B7D0002ECE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492C5E8221958B7D0002ECE0 /* AvalonV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvalonV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		492C5E8621958B7D0002ECE0 /* AvalonV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvalonV2UITests.swift; sourceTree = "<group>"; };
+		492C5E8821958B7D0002ECE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		492C5E6021958B7C0002ECE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492C5E7421958B7D0002ECE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492C5E7F21958B7D0002ECE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		492C5E5A21958B7C0002ECE0 = {
+			isa = PBXGroup;
+			children = (
+				492C5E6521958B7C0002ECE0 /* AvalonV2 */,
+				492C5E7A21958B7D0002ECE0 /* AvalonV2Tests */,
+				492C5E8521958B7D0002ECE0 /* AvalonV2UITests */,
+				492C5E6421958B7C0002ECE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		492C5E6421958B7C0002ECE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				492C5E6321958B7C0002ECE0 /* AvalonV2.app */,
+				492C5E7721958B7D0002ECE0 /* AvalonV2Tests.xctest */,
+				492C5E8221958B7D0002ECE0 /* AvalonV2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		492C5E6521958B7C0002ECE0 /* AvalonV2 */ = {
+			isa = PBXGroup;
+			children = (
+				492C5E6621958B7C0002ECE0 /* AppDelegate.swift */,
+				492C5E6821958B7C0002ECE0 /* ViewController.swift */,
+				492C5E6A21958B7C0002ECE0 /* Main.storyboard */,
+				492C5E6D21958B7D0002ECE0 /* Assets.xcassets */,
+				492C5E6F21958B7D0002ECE0 /* LaunchScreen.storyboard */,
+				492C5E7221958B7D0002ECE0 /* Info.plist */,
+			);
+			path = AvalonV2;
+			sourceTree = "<group>";
+		};
+		492C5E7A21958B7D0002ECE0 /* AvalonV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				492C5E7B21958B7D0002ECE0 /* AvalonV2Tests.swift */,
+				492C5E7D21958B7D0002ECE0 /* Info.plist */,
+			);
+			path = AvalonV2Tests;
+			sourceTree = "<group>";
+		};
+		492C5E8521958B7D0002ECE0 /* AvalonV2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				492C5E8621958B7D0002ECE0 /* AvalonV2UITests.swift */,
+				492C5E8821958B7D0002ECE0 /* Info.plist */,
+			);
+			path = AvalonV2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		492C5E6221958B7C0002ECE0 /* AvalonV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492C5E8B21958B7D0002ECE0 /* Build configuration list for PBXNativeTarget "AvalonV2" */;
+			buildPhases = (
+				492C5E5F21958B7C0002ECE0 /* Sources */,
+				492C5E6021958B7C0002ECE0 /* Frameworks */,
+				492C5E6121958B7C0002ECE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvalonV2;
+			productName = AvalonV2;
+			productReference = 492C5E6321958B7C0002ECE0 /* AvalonV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		492C5E7621958B7D0002ECE0 /* AvalonV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492C5E8E21958B7D0002ECE0 /* Build configuration list for PBXNativeTarget "AvalonV2Tests" */;
+			buildPhases = (
+				492C5E7321958B7D0002ECE0 /* Sources */,
+				492C5E7421958B7D0002ECE0 /* Frameworks */,
+				492C5E7521958B7D0002ECE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				492C5E7921958B7D0002ECE0 /* PBXTargetDependency */,
+			);
+			name = AvalonV2Tests;
+			productName = AvalonV2Tests;
+			productReference = 492C5E7721958B7D0002ECE0 /* AvalonV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		492C5E8121958B7D0002ECE0 /* AvalonV2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492C5E9121958B7D0002ECE0 /* Build configuration list for PBXNativeTarget "AvalonV2UITests" */;
+			buildPhases = (
+				492C5E7E21958B7D0002ECE0 /* Sources */,
+				492C5E7F21958B7D0002ECE0 /* Frameworks */,
+				492C5E8021958B7D0002ECE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				492C5E8421958B7D0002ECE0 /* PBXTargetDependency */,
+			);
+			name = AvalonV2UITests;
+			productName = AvalonV2UITests;
+			productReference = 492C5E8221958B7D0002ECE0 /* AvalonV2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		492C5E5B21958B7C0002ECE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Hong Le";
+				TargetAttributes = {
+					492C5E6221958B7C0002ECE0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					492C5E7621958B7D0002ECE0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 492C5E6221958B7C0002ECE0;
+					};
+					492C5E8121958B7D0002ECE0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 492C5E6221958B7C0002ECE0;
+					};
+				};
+			};
+			buildConfigurationList = 492C5E5E21958B7C0002ECE0 /* Build configuration list for PBXProject "AvalonV2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 492C5E5A21958B7C0002ECE0;
+			productRefGroup = 492C5E6421958B7C0002ECE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				492C5E6221958B7C0002ECE0 /* AvalonV2 */,
+				492C5E7621958B7D0002ECE0 /* AvalonV2Tests */,
+				492C5E8121958B7D0002ECE0 /* AvalonV2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		492C5E6121958B7C0002ECE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492C5E7121958B7D0002ECE0 /* LaunchScreen.storyboard in Resources */,
+				492C5E6E21958B7D0002ECE0 /* Assets.xcassets in Resources */,
+				492C5E6C21958B7C0002ECE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492C5E7521958B7D0002ECE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492C5E8021958B7D0002ECE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		492C5E5F21958B7C0002ECE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492C5E6921958B7C0002ECE0 /* ViewController.swift in Sources */,
+				492C5E6721958B7C0002ECE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492C5E7321958B7D0002ECE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492C5E7C21958B7D0002ECE0 /* AvalonV2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492C5E7E21958B7D0002ECE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492C5E8721958B7D0002ECE0 /* AvalonV2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		492C5E7921958B7D0002ECE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 492C5E6221958B7C0002ECE0 /* AvalonV2 */;
+			targetProxy = 492C5E7821958B7D0002ECE0 /* PBXContainerItemProxy */;
+		};
+		492C5E8421958B7D0002ECE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 492C5E6221958B7C0002ECE0 /* AvalonV2 */;
+			targetProxy = 492C5E8321958B7D0002ECE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		492C5E6A21958B7C0002ECE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492C5E6B21958B7C0002ECE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		492C5E6F21958B7D0002ECE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492C5E7021958B7D0002ECE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		492C5E8921958B7D0002ECE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		492C5E8A21958B7D0002ECE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		492C5E8C21958B7D0002ECE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvalonV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hong.AvalonV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		492C5E8D21958B7D0002ECE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvalonV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hong.AvalonV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		492C5E8F21958B7D0002ECE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvalonV2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hong.AvalonV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvalonV2.app/AvalonV2";
+			};
+			name = Debug;
+		};
+		492C5E9021958B7D0002ECE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvalonV2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hong.AvalonV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvalonV2.app/AvalonV2";
+			};
+			name = Release;
+		};
+		492C5E9221958B7D0002ECE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvalonV2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hong.AvalonV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AvalonV2;
+			};
+			name = Debug;
+		};
+		492C5E9321958B7D0002ECE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvalonV2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hong.AvalonV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AvalonV2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		492C5E5E21958B7C0002ECE0 /* Build configuration list for PBXProject "AvalonV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492C5E8921958B7D0002ECE0 /* Debug */,
+				492C5E8A21958B7D0002ECE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492C5E8B21958B7D0002ECE0 /* Build configuration list for PBXNativeTarget "AvalonV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492C5E8C21958B7D0002ECE0 /* Debug */,
+				492C5E8D21958B7D0002ECE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492C5E8E21958B7D0002ECE0 /* Build configuration list for PBXNativeTarget "AvalonV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492C5E8F21958B7D0002ECE0 /* Debug */,
+				492C5E9021958B7D0002ECE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492C5E9121958B7D0002ECE0 /* Build configuration list for PBXNativeTarget "AvalonV2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492C5E9221958B7D0002ECE0 /* Debug */,
+				492C5E9321958B7D0002ECE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 492C5E5B21958B7C0002ECE0 /* Project object */;
+}
